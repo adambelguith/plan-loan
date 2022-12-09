@@ -1,0 +1,63 @@
+.month-input {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #e9eef2;
+    background: #ffffff;
+    height: 56px;
+    width: 312px;
+    border-radius: 4px;
+}
+.flesh {
+    background: none;
+    border: none;
+    padding: 21px 20px;
+    cursor: pointer;
+}
+.center-input {
+    color: #708797;
+    font-weight: 400;
+    font-size: 16px;
+    border: none;
+
+    text-align: center;
+}
+
+.label1 {
+    display: none;
+}
+
+.label2 {
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #1e2a32;
+    display: block;
+}
+
+@media screen and (min-width: 768px) {
+    .month-input {
+        height: 56px;
+        width: 192px;
+    }
+    .center-input {
+        width: 76px;
+        height: 24px;
+    }
+
+    .label2 {
+        display: none;
+    }
+
+    .label1 {
+        font-family: "Work Sans";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 150%;
+        color: #1e2a32;
+        display: block;
+    }
+}

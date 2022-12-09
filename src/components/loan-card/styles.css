@@ -1,0 +1,30 @@
+.loan-card {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    box-shadow: 0px 16px 32px rgba(30, 42, 50, 0.08);
+    border-radius: 8px;
+    max-width: 560px;
+}
+
+.inputs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 16px;
+    margin-bottom: 24px;
+}
+
+@media screen and (min-width: 768px) {
+    .loan-card {
+        padding: 40px;
+    }
+
+    .inputs {
+        flex-direction: row;
+    }
+}

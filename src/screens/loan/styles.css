@@ -1,0 +1,26 @@
+/* Main CSS File for Loan Page */
+
+.loan-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 24px;
+}
+
+h1 {
+    font-size: 20px;
+    font-weight: 400;
+    color: #1b31a8;
+    margin-top: 88px;
+}
+
+@media screen and (min-width: 768px) {
+    h1 {
+        margin-top: 128px;
+    }
+}
+
+h1 span {
+    font-weight: 700;
+}
